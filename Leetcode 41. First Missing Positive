@@ -6,16 +6,11 @@ public:
      
      int ans;
      for(int i = 1 ; i <= 100001 ; i++){
-         
-         if(i > 0){
              if(st.find(i) == st.end()){
                  ans = i;
                  break;
              }
-         }
      }
-     
-     
      return ans;
     }
 };
